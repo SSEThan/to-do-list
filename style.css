@@ -1,0 +1,93 @@
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.list-group {
+    list-style: none;
+    padding: 0;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item.done {
+    background-color: #d4edda;
+    text-decoration: line-through;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.badge-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.error {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 20px;
+}
